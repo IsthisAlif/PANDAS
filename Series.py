@@ -12,10 +12,16 @@ import pandas as pd
 #print(series.iloc[0])
 #print(series[series < 200])
 
-calories = {"Day 1" : 1750,
-            "Day 2" : 2100,
-            "Day 3" : 1700}
+pokemon = {1 : "Bulbasaur",
+            2 : "Ivysaur",
+            3 : "Venusaur",
+            4 : "Charmander",
+            5 : "Charmeleon",
+            6 : "Charizard",
+            7 : "Squirtle",
+            8 : "Wartortle",
+            9 : "Blastoise"}
 
-series = pd.Series(calories)
+series = pd.Series(pokemon)
 #series.loc["Day 3"] += 500
-print(series[series < 2000])
+print(series)
