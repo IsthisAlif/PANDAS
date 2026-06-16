@@ -12,7 +12,7 @@ import pandas as pd
 #print(series.iloc[0])
 #print(series[series < 200])
 
-pokemon = {1 : "Bulbasaur",
+pokemon = { 1 : "Bulbasaur",
             2 : "Ivysaur",
             3 : "Venusaur",
             4 : "Charmander",
