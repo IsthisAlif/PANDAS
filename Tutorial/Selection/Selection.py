@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("Selection/pokedex.csv", index_col="Name") # set column as index
+df = pd.read_csv("Tutorial/Selection/pokedex.csv", index_col="Name") # set column as index
 
 # SELECTION BY COLUMNS
 #print(df["Name"].to_string())
